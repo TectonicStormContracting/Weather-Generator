@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GM Suite Weather Generator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new__profile__form">Weather Generator New Profile</string>
+    <string name="title_activity_generator">Weather Generator Session</string>
+
+    <!-- Text for the activity_profile_selection -->
+    <string name="Intro_Text">Welcome to the GM Suite Weather Generator</string>
+    <string name="Select_Prompt">Select Save File To Load</string>
+
+    <!-- Button text for activity_profile_selection -->
+    <string name="New_Profile">New Profile</string>
+    <string name="Load_Profile">Load Profile</string>
+    <string name="Exit">Exit Generator</string>
+    <string name="Back">Back</string>
+
+    <!-- Text for activity_new_profile_form -->
+    <string name="Profile_Name">Name Your Profile</string>
+    <string name="Start_Date">Starting Time for Generator</string>
+    <string name="Hour_Label">Hour</string>
+    <string name="Day_Label">Day</string>
+    <string name="Month_Label">Month</string>
+    <string name="Season_Label">Season</string>
+    <string name="Biome_Lable">Biome</string>
+    <string name="Weather_Condition_Lable">Starting Weather Conditions</string>
+    <string name="Instructions_Header">Instructions</string>
+
+    <!-- Button text for activity_new_profile_form -->
+    <string name="Shop_Prompt">Check Out the Shop for More Biomes</string>
+    <string name="Mild_Start">Mild</string>
+    <string name="Poor_Start">Poor</string>
+    <string name="Very_Poor_Start">Very Poor</string>
+    <string name="Dangerous_Start">Dangerous</string>
+    <string name="Deadly_Start">Deadly</string>
+    <string name="Create_Profile">Create Profile</string>
+    <string name="Restart">Restart</string>
+
+    <!-- String Arrays for Spinners in activity_new_profile_form -->
+   
+    <string-array name="Hour_Array">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+   
+    <string-array name="Day_Array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    
+    <string-array name="Month_Array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+   
+    <string-array name="Season_Array">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+    </string-array>
+
+    <!-- Text for activity_generator -->
+	<string name="Value_Description">Discription</string>
+	<string name="Value_Effects">Potential Effects</string>
+	
+	<!-- Button text for activity_generator -->
+	<string name="By_Hour">By Hour</string>
+	<string name="By_Day">By Day</string>
+	<string name="By_Week">By Week</string>
+	<string name="By_Month">By Month</string>
+	<string name="Change_Season">Change Season</string>
+	<string name="Change_Biome">Change Biome</string>
+	<string name="Intensify">Intensify</string>
+	<string name="Detensify">Detensify</string>
+	<string name="Random">Random Weather</string>
+	<string name="Done">Save &amp; Exit</string>
+
+
+</resources>

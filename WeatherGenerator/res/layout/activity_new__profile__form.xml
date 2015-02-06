@@ -1,0 +1,265 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="4"
+    android:layout_gravity="start|top"
+    android:layout_row="9"
+    android:columnCount="6"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gmsuite.program.weathergenerator.New_Profile_Form" >
+
+    <TextView
+        android:id="@+id/nameProf"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="start|top"
+        android:layout_row="0"
+        android:text="@string/Profile_Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/shop"
+        android:layout_width="197dp"
+        android:layout_height="59dp"
+        android:layout_column="3"
+        android:layout_columnSpan="2"
+        android:layout_gravity="start|top"
+        
+        android:layout_marginStart="50dp"
+        android:layout_row="0"
+        android:layout_rowSpan="2"
+        android:text="@string/Shop_Prompt" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="start|top"
+        android:layout_row="1"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/startTime"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="10dp"
+        android:layout_row="2"
+        android:text="@string/Start_Date"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/hour"
+        android:layout_column="0"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_row="3"
+        android:text="@string/Hour_Label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_column="1"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="20dp"
+        android:layout_row="3"
+        android:text="@string/Day_Label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_column="2"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginStart="0dp"
+        android:layout_row="3"
+        android:text="@string/Month_Label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/season"
+        android:layout_column="3"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="23dp"
+        android:layout_row="3"
+        android:text="@string/Season_Label"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+	 <Spinner
+	     android:id="@+id/spinner_hour"
+	     android:layout_width="86dp"
+	     android:layout_column="0"
+	     android:layout_gravity="start|top"
+	     android:layout_marginStart="12dp"
+	     android:layout_row="4" />
+    
+    <Spinner
+        android:id="@+id/spinner_day"
+        android:layout_width="86dp"
+        android:layout_column="1"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="12dp"
+        android:layout_row="4" />
+    
+     <Spinner
+         android:id="@+id/spinner_month"
+         android:layout_width="86dp"
+         android:layout_column="2"
+         android:layout_gravity="start|top"
+         android:layout_marginStart="18dp"
+         android:layout_row="4" />
+     
+      <Spinner
+          android:id="@+id/spinner_season"
+          android:layout_width="86dp"
+          android:layout_column="3"
+          android:layout_gravity="start|top"
+          android:layout_marginStart="15dp"
+          android:layout_row="4" />
+      
+      <TextView
+          android:id="@+id/instruct2"
+          android:layout_width="226dp"
+          android:layout_height="325dp"
+          android:layout_column="3"
+          android:layout_columnSpan="3"
+          android:layout_gravity="start|top"
+          android:layout_row="6"
+          android:clickable="false"
+          android:focusable="false"
+          android:focusableInTouchMode="false"
+          android:maxHeight="325dp"
+          android:maxWidth="226dp"
+          android:textSize="17sp" />
+      
+       <TextView
+           android:id="@+id/biome"
+           android:layout_column="0"
+           android:layout_columnSpan="3"
+           android:layout_gravity="start|top"
+           android:layout_marginTop="25dp"
+           android:layout_row="5"
+           android:text="@string/Biome_Lable"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textSize="20sp" />
+       
+       <TextView
+           android:id="@+id/instuct"
+           android:layout_column="3"
+           android:layout_columnSpan="3"
+           android:layout_gravity="start|top"
+           android:layout_marginTop="25dp"
+           android:layout_row="5"
+           android:layout_rowSpan="2"
+           android:text="@string/Instructions_Header"
+           android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textSize="20sp" />
+       
+        <ListView
+            android:id="@+id/biomeSelect"
+            android:layout_width="226dp"
+            android:layout_height="328dp"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="top"
+            android:layout_row="6" >
+
+    </ListView>
+    
+        <TextView
+            android:id="@+id/SWC"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_gravity="start|top"
+            android:layout_marginTop="15dp"
+            android:layout_row="7"
+            android:text="@string/Weather_Condition_Lable"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_column="0"
+            android:layout_columnSpan="6"
+            android:layout_gravity="start|top"
+            android:layout_row="8"
+            android:orientation="horizontal" >
+
+	        <RadioButton
+	            android:id="@+id/mild"
+	            android:layout_width="85dp"
+	            android:layout_height="47dp"
+	            android:layout_gravity="start|top"
+	            android:layout_marginTop="10dp"
+	            android:text="@string/Mild_Start"
+	            android:checked="true" />
+	        
+	         <RadioButton
+	             android:id="@+id/poor"
+	             android:layout_width="85dp"
+	             android:layout_height="47dp"
+	             android:layout_gravity="start|top"
+	             android:layout_marginTop="10dp"
+	             android:text="@string/Poor_Start" />
+	         
+	          <RadioButton
+	              android:id="@+id/very_poor"
+	              android:layout_width="125dp"
+	              android:layout_height="47dp"
+	              android:layout_gravity="start|top"
+	              android:layout_marginTop="10dp"
+	              android:text="@string/Very_Poor_Start" />
+	          
+	           <RadioButton
+	               android:id="@+id/dangerous"
+	               android:layout_width="125dp"
+	               android:layout_height="47dp"
+	               android:layout_gravity="start|top"
+	               android:layout_marginTop="10dp"
+	               android:text="@string/Dangerous_Start" />
+	           
+	            <RadioButton
+	                android:id="@+id/deadly"
+	                android:layout_width="85dp"
+	                android:layout_height="47dp"
+	                android:layout_gravity="start|top"
+	                android:layout_marginTop="10dp"
+	                android:text="@string/Deadly_Start" />
+        
+        </RadioGroup>
+      
+         <Button
+             android:id="@+id/createProfile"
+             android:layout_width="181dp"
+             android:layout_height="60dp"
+             android:layout_column="0"
+             android:layout_columnSpan="3"
+             android:layout_gravity="start|top"
+             android:layout_marginStart="50dp"
+             
+             android:layout_marginTop="50dp"
+             android:layout_row="9"
+             android:text="@string/Create_Profile" />
+         
+         <Button
+             android:id="@+id/restart"
+             android:layout_width="181dp"
+             android:layout_height="60dp"
+             android:layout_column="3"
+             android:layout_columnSpan="3"
+             android:layout_gravity="start|top"
+             android:layout_marginTop="50dp"
+             android:layout_row="9"
+             android:text="@string/Restart" />
+
+         
+
+</GridLayout>
